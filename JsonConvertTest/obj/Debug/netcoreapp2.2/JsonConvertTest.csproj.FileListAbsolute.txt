@@ -17,7 +17,6 @@ D:\dev\JsonConverter\JsonConvertTest\bin\Debug\netcoreapp2.2\JsonConvertTest.run
 D:\dev\JsonConverter\JsonConvertTest\bin\Debug\netcoreapp2.2\JsonConvertTest.runtimeconfig.dev.json
 D:\dev\JsonConverter\JsonConvertTest\bin\Debug\netcoreapp2.2\JsonConvertTest.dll
 D:\dev\JsonConverter\JsonConvertTest\bin\Debug\netcoreapp2.2\JsonConvertTest.pdb
-D:\dev\JsonConverter\JsonConvertTest\obj\Debug\netcoreapp2.2\JsonConvertTest.csprojAssemblyReference.cache
 D:\dev\JsonConverter\JsonConvertTest\obj\Debug\netcoreapp2.2\JsonConvertTest.csproj.CoreCompileInputs.cache
 D:\dev\JsonConverter\JsonConvertTest\obj\Debug\netcoreapp2.2\JsonConvertTest.RazorAssemblyInfo.cache
 D:\dev\JsonConverter\JsonConvertTest\obj\Debug\netcoreapp2.2\JsonConvertTest.RazorAssemblyInfo.cs

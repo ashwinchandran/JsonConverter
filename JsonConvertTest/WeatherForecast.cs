@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace JsonConvertTest
 {
-    [JsonConverter(typeof(WeatherDTOConverterv1))]
+    [JsonConverter(typeof(WeatherDTOConverter))]
     public class WeatherForecast
     {
         [JsonProperty("date")]

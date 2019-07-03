@@ -9,7 +9,7 @@ using Newtonsoft.Json.Linq;
 
 namespace JsonConvertTest
 {
-    public class WeatherDTOConverterv1:JsonConverter
+    public class WeatherDTOConverter:JsonConverter
     {
         private readonly Dictionary<string, string> _propertyMappings = new Dictionary<string, string>
         {
