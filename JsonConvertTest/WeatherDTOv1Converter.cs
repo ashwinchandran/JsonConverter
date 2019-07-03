@@ -48,13 +48,24 @@ namespace JsonConvertTest
 
                 if (jp.Name == "temperature")
                 {
-                    PropertyInfo relatedProp = props.FirstOrDefault(pi =>
-                        pi.CanWrite && pi.GetCustomAttribute<JsonPropertyAttribute>().PropertyName == "temperatureC");
-                    relatedProp?.SetValue(instance, Math.Round(((Convert.ToDecimal(jp.Value) - 32) * 5 / 9),2) );
+                   SetCelsius(props,jp,instance);
                 }
             }
 
             return instance;
+        }
+
+        private void SetCelsius(List<PropertyInfo> props, JProperty jp, Object instance)
+        {
+            PropertyInfo relatedProp = props.FirstOrDefault(pi =>
+                pi.CanWrite && pi.GetCustomAttribute<JsonPropertyAttribute>().PropertyName == "temperatureC");
+            relatedProp?.SetValue(instance, GetCelsiusValue(jp));
+        }
+
+
+        private decimal GetCelsiusValue(JProperty jp)
+        {
+            return Math.Round(((Convert.ToDecimal(jp.Value) - 32) * 5 / 9), 2);
         }
     }
 }

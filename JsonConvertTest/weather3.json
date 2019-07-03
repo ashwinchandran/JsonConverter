@@ -1,5 +1,6 @@
 {
-  "dated": "07-28-2019",
-  "temperature": 100.5,
-  "feelslike": "Very Very Hot"
+  "date": "06-21-2019",
+  "temperatureC": 39.5,
+  "temperatureF": 98.5,
+  "description": "Hot"
 }
